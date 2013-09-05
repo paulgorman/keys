@@ -7,9 +7,9 @@ session_start();
 $client = new Google_Client();
 $client->setApplicationName("LVE Keys Database");
 $client->setClientId('403939207897.apps.googleusercontent.com');
-$client->setClientSecret('sFYOXxQU528H_qDDzBK5ZbYq');
+$client->setClientSecret('L5PeGoLkOH_Qr9Y8XMFoilwk');
 $client->setRedirectUri('http://keys.irev.net/');
-$client->setDeveloperKey('AIzaSyDUxLmsK5-HAqOc7SW3B7kR4aogISKjIcQ');
+$client->setDeveloperKey('AIzaSyBzq4BBN22hhn1nu5hLmVAMgbho9i2bgws');
 $plus = new Google_PlusService($client);
 
 if (isset($_REQUEST['logout'])) {
